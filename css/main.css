@@ -3397,6 +3397,22 @@ form textarea:required:valid {
   transition: transform 0.7s ease-in-out, opacity 0.5s ease-in-out, width 0.3s var(--_animbezier), height 0.3s var(--_animbezier);
   transition: transform 0.7s ease-in-out, opacity 0.5s ease-in-out, width 0.3s var(--_animbezier), height 0.3s var(--_animbezier), -webkit-transform 0.7s ease-in-out, -moz-transform 0.7s ease-in-out;
 }
+@media screen and (min-width: 360px) and (max-width: 854px) {
+  .AP {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .gallery__item {
+    width: 50%;
+    height: auto;
+  }
+  .IBM {
+    width: 50%;
+    height: 350px;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .gallery__link {
     -webkit-transform: scale3d(1, 1, 1);
