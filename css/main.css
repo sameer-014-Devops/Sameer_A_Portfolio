@@ -3409,7 +3409,6 @@ form textarea:required:valid {
     height: auto;
   }
   .IBM {
-    width: 65%;
     height: 350px;
   }
 }
