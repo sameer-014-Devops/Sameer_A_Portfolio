@@ -3415,28 +3415,29 @@ form textarea:required:valid {
   transition: transform 0.7s ease-in-out, opacity 0.5s ease-in-out, width 0.3s var(--_animbezier), height 0.3s var(--_animbezier);
   transition: transform 0.7s ease-in-out, opacity 0.5s ease-in-out, width 0.3s var(--_animbezier), height 0.3s var(--_animbezier), -webkit-transform 0.7s ease-in-out, -moz-transform 0.7s ease-in-out;
 }
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 360px) {
   .AP {
     width: 100%;
     height: auto;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1400px) {
+@media screen and (min-width: 760px) {
   .cert {
     width: 50%;
-    height: auto;
+    height: 300px;
   }
   .IBM {
-    height: 225px;
+    height: 300px;
   }
 }
-@media screen and (min-width: 1401px) {
+
+@media screen and (min-width: 1400px) {
   .cert {
     width: 50%;
     height: auto;
   }
   .IBM {
-    height: 350px;
+    height: 265px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -3768,7 +3769,7 @@ form textarea:required:valid {
 
 .cards__card {
   height: 100%;
-  background-color: #3d3a3a96;
+  background-color: var(--base);
   border: 1px solid var(--stroke-elements);
   -moz-border-radius: var(--_radius-xl);
        border-radius: var(--_radius-xl);
@@ -3923,8 +3924,8 @@ form textarea:required:valid {
   position: relative;
   width: 100%;
   padding: 3rem;
-  background-color: #3d3a3a00;
-  border: 1px solid var(--stroke-elements);
+  background-color: var(--base);
+  border: 1px solid #212124;
   -moz-border-radius: var(--_radius-xl);
        border-radius: var(--_radius-xl);
   text-align: center;
@@ -4198,8 +4199,8 @@ form textarea:required:valid {
   position: relative;
   width: 100%;
   padding: 3rem;
-  background-color: #3d3a3a7a;
-  border: 1px solid var(--stroke-elements);
+  background-color: var(--base);
+  border: 1px solid #212124;
   -moz-border-radius: var(--_radius-xl);
        border-radius: var(--_radius-xl);
   text-align: center;
