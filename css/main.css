@@ -1065,6 +1065,7 @@ p.additional-text a {
 }
 
 .text-link-bold {
+  font-size: 14px;
   color: inherit;
   color: var(--t-bright);
   text-decoration: none;
