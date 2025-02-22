@@ -3768,7 +3768,7 @@ form textarea:required:valid {
 
 .cards__card {
   height: 100%;
-  background-color: var(--base);
+  background-color: #3d3a3a96;
   border: 1px solid var(--stroke-elements);
   -moz-border-radius: var(--_radius-xl);
        border-radius: var(--_radius-xl);
@@ -3923,7 +3923,7 @@ form textarea:required:valid {
   position: relative;
   width: 100%;
   padding: 3rem;
-  background-color: var(--base);
+  background-color: #3d3a3a00;
   border: 1px solid var(--stroke-elements);
   -moz-border-radius: var(--_radius-xl);
        border-radius: var(--_radius-xl);
@@ -4198,7 +4198,7 @@ form textarea:required:valid {
   position: relative;
   width: 100%;
   padding: 3rem;
-  background-color: var(--base);
+  background-color: #3d3a3a7a;
   border: 1px solid var(--stroke-elements);
   -moz-border-radius: var(--_radius-xl);
        border-radius: var(--_radius-xl);
